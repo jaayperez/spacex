@@ -8,6 +8,9 @@
     "start": "nodemon src/index.js",
     "start:ci": "node src/index.js"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "Justin Perez",
   "license": "MIT",
   "dependencies": {

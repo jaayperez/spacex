@@ -8,8 +8,8 @@ const { createStore } = require('./utils');
 
 const resolvers = require('./resolvers');
 
-const LaunchAPI = require('./src/datasources/launch');
-const UserAPI = require('./src/datasources/user');
+const LaunchAPI = require('./datasources/launch');
+const UserAPI = require('./datasources/user');
 
 const store = createStore();
 
